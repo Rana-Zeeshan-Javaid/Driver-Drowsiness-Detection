@@ -1,0 +1,12 @@
+opencv-python
+mediapipe
+numpy
+imutils
+ultralytics
+playsound
+scipy
+threading
+winsound
+
+
+Choose any of your sound . Name it with Warning.mp3
