@@ -11,7 +11,7 @@ import winsound
 import threading
 from EAR import eye_aspect_ratio
 print("loading YOLOv8 face detection model...")
-model = YOLO("E:\CAI 2.0\DL labs\DL final project\Driver-Drowsiness-Detection\yolov8n-face.pt")
+model = YOLO("Driver-Drowsiness-Detection\yolov8n-face.pt")
 print("initializing MediaPipe Face Mesh...")
 mp_face_mesh = mp.solutions.face_mesh
 face_mesh = mp_face_mesh.FaceMesh(max_num_faces=1, refine_landmarks=True,min_detection_confidence=0.5, min_tracking_confidence=0.5)
@@ -35,7 +35,7 @@ ALERT_DURATION = 2
 ALERT_REPEAT_INTERVAL = 2  
 
 # Path to alert sound file
-ALERT_SOUND = "E:\CAI 2.0\DL labs\DL final project\Driver-Drowsiness-Detection\Warning.mp3"
+ALERT_SOUND = "Driver-Drowsiness-Detection\Warning.mp3"
 
 # Threading event to control audio playback
 stop_audio_event = threading.Event()
