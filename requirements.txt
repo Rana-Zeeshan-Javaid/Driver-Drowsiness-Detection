@@ -10,3 +10,10 @@ winsound
 
 
 Choose any of your sound . Name it with Warning.mp3
+
+# Download YOLOv8n-Face model manually from:
+# https://github.com/derronqi/yolov8-face/blob/main/weights/yolov8n-face.pt
+# or directly via this link:
+# https://github.com/derronqi/yolov8-face/releases/download/v1.0/yolov8n-face.pt
+#
+# Place 'yolov8n-face.pt' in your project folder before running the code.
